@@ -4,6 +4,10 @@ const secondWord = prompt("Inserisci una parola")
 if(firstWord.length < secondWord.length) {
     console.log(firstWord, secondWord)
 
-} else (secondWord.length < firstWord.length) 
+} else if (secondWord.length < firstWord.length) {
     console.log(secondWord, firstWord)
+
+} else {
+    console.log("LE PAROLE SONO DI EGUAL LUNGHEZZA")
+}
 
