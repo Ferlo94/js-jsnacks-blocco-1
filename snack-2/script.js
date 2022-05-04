@@ -5,5 +5,5 @@ if(firstWord.length < secondWord.length) {
     console.log(firstWord, secondWord)
 
 } else (secondWord.length < firstWord.length) 
-    console.log(firstWord, secondWord)
+    console.log(secondWord, firstWord)
 
