@@ -7,9 +7,10 @@ let oddTotal = 0;
 
 for (let i = 0; i < list.length; i++) {
 
-    if (list[i] % 2 === 1) {
+    if (i % 2 === 1) {
         oddTotal += list[i];
+        console.log(list[i]);
     }
 }
 
-console.log(oddTotal);
+console.log(oddTotal, "Totale");
